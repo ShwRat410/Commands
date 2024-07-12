@@ -1,0 +1,14 @@
+local ------ stage ---------remote
+crl+s        git add.		git push
+	     git commit      
+
+
+git log --oneline -n 10 -> see last 10 logs of your git history in single line.
+
+git push -f -> if you want to force push your git commit , it will make your remote branch as your local branch
+
+git stash -> will remove all the local changes and got to the staged commit of local
+
+git reset --hard HEAD~1 --> delete 1 commit from local also
+
+git reset --soft HEAD~1 --> delete 1 commit only from stage , it will still be available in local
